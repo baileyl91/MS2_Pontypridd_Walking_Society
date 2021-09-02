@@ -41,12 +41,24 @@ ul li{
   }
 
   footer {
-      background-color: #264d00;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    background-color: #264d00;
+  }
+
+  .footer-text {
+    font-size:25px;
+    padding-left:40px;
+    float:left;
+    color: white;
+  }
+
+  .fa-facebook, .fa-instagram {
       color: white;
-      height: 75px;
-      position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+      padding-right:40px;
+      padding-top: 30px;
+      float:right;
   }
