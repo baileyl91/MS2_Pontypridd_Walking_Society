@@ -5,13 +5,14 @@ body {
     background-color: #336600;
     margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 .container-navigation {
     background-color: #264d00;
     color: white;
     clear:both;
-    overflow:auto;
+    overflow:hidden;
 }
 
 .logo {
@@ -46,7 +47,7 @@ ul li{
     background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  position: absolute;
+  position: relative;
   width: 100%;
   }
 
@@ -58,8 +59,18 @@ ul li{
   color: white;
   }
 
+ .intro {
+    background-color: white;
+    height: 250px;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+
   footer {
-    position:fixed;
+    margin-top: 20px;;
     bottom:0;
     left:0;
     width:100%;
