@@ -61,7 +61,7 @@ ul li{
   }
 
  .intro {
-    background-color: white;
+    background-color: #DFF0E2;
     height: 250px;
     position: relative;
     width: 70%;
@@ -117,6 +117,7 @@ img {
   height: 500px; width: 70%; overflow: hidden;
   position: relative;
   margin: auto;
+  border-radius: 5px;
 }
 
 /* Next & previous buttons */
