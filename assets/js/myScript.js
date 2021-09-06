@@ -1,6 +1,6 @@
-function greeting () {
-    var time = Date().getHours();
-    let greet;
+
+    var time = new Date().getHours();
+    var greet;
 
     if (time < 12) {
         greet = "Good Morning!";
@@ -10,6 +10,6 @@ function greeting () {
         greet = "Good Afternoon!";
     }
 
-    document.getElementById("greeting").innerHTML = greet;
-}
+    document.getElementById("greeting").innerHTML = 'Hello and ' + greet;
+
 
