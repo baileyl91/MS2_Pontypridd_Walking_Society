@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #336600;
@@ -63,14 +64,21 @@ ul li{
     background-color: white;
     height: 250px;
     position: relative;
-    width: 75%;
+    width: 70%;
     margin: auto;
     border-radius: 5px;
     text-align: center;
   }
 
+  .intro p {
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+  }
+
   footer {
-    margin-top: 20px;;
+    margin-top: 20px;
     bottom:0;
     left:0;
     width:100%;
@@ -91,3 +99,56 @@ ul li{
       padding-top: 30px;
       float:right;
   }
+
+  .mySlides {display: none}
+
+img {
+  height: 500px;
+  vertical-align: middle;
+  position: center;
+  size: 100%;
+  object-fit: cover;
+}
+
+
+/* Slideshow container */
+.gallery {
+  
+  height: 500px; width: 70%; overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: grey;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0;
+}
