@@ -155,7 +155,10 @@ img {
 }
 
 #map {
-  height: 80%;
+  height: 400px;
+  /* The height is 400 pixels */
   width: 80%;
-  position: center;
+  /* The width is the width of the web page */
+  margin-left: 10%;
 }
+
