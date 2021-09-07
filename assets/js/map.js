@@ -1,14 +1,19 @@
 var locations = [
-    ['<h2>Caerphilly</h2>' + '<p>Length: 1 mile</p>',51.578602, -3.218060, 4],
-    ['<h2>Tonypandy</h2>' + '<p>Length: 2 mile</p>', 51.618408, -3.454590, 5],
-    ['<h2>Nantgarw</h2>' + '<p>Length: 3 mile</p>', 51.562470, -3.261900, 3],
+    ['<h2>The Rocking Stone</h2>' + '<p>Length: 1 mile</p>',51.60233, -3.32738],
+    ['<h2>Saint Gwynno Forest</h2>' + '<p>Length: 2 mile</p>', 51.65761, -3.41281],
+    ['<h2>Clydach Vale Park</h2>' + '<p>Length: 3 mile</p>', 51.62471, -3.46850],
+    ['<h2>Eglwysilan Mountain</h2>' + '<p>Length: 3 mile</p>', 51.60858, -3.30968],
+    ['<h2>Forest Fawr Park</h2>' + '<p>Length: 1 mile</p>', 51.54742, -3.23779],
+    ['<h2>Caerphilly Mountain</h2>' + '<p>Length: 2 miles</p>', 51.56244, -3.22384],
+    ['<h2>Barry Sidings</h2>' + '<p>Length: 1 mile</p>', 51.60835, -3.37174],
+    ['<h2>Taff Trail</h2>' + '<p>Length: 5 miles</p>', 51.59341, -3.32003]
   ];
 
 
 function initMap() {
 let map = new google.maps.Map(document.getElementById("map"), {
   center: { lat: 51.601150, lng: -3.349900 },
-  zoom: 10,
+  zoom: 11,
 });
 
 var infowindow = new google.maps.InfoWindow();
