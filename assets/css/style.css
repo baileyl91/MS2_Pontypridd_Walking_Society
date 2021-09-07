@@ -217,4 +217,17 @@ img {
     padding-right: 15%;
   }
 
+  @media screen and (max-width: 600px) {
+    a {
+      float: none;
+      width: 100%;
+    }
+  }
 
+  @media (max-width: 40em) {
+    .hidden {
+      display: none;
+    }
+  }
+
+  
