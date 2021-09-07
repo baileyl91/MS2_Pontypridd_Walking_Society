@@ -254,5 +254,25 @@ img {
     }
   }
 
+  @media (max-width: 50em) {
+    .collapsible {
+      height: auto;
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 50em) {
+    .content {
+      width: auto;
+    }
+  }
+
+  @media (max-width: 50em) {
+    #map {
+      margin-left: auto;
+      width: auto;
+    }
+  }
 
   
