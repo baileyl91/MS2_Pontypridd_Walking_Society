@@ -42,6 +42,21 @@ ul li{
     vertical-align:top;
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: #99C2A5;
+  }
+  
+.a {
+  text-decoration: underline;
+  color: #99C2A5;
+}
+  
+
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-wales.jpg);
     height: 500px;
@@ -98,6 +113,12 @@ ul li{
       padding-right:40px;
       padding-top: 30px;
       float:right;
+  }
+
+  .fa-facebook:hover, .fa-instagram:hover {
+    
+      color: #99C2A5;
+  
   }
 
   .mySlides {display: none}
