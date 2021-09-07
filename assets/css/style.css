@@ -7,6 +7,7 @@ body {
     margin: 0;
   padding: 0;
   min-height: 100vh;
+  overflow-x: hidden; 
 }
 
 .container-navigation {
@@ -185,31 +186,32 @@ img {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: #3D6649;
+  color: white;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
+  padding: 15px;
+  width: 80%;
+  border: 1px solid white;
+  text-align: center;
   outline: none;
   font-size: 15px;
-  width:100%;
-  
+  margin-left: 10%;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: #99C2A5;
+  color:black;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  width:100%;
-  padding-left: 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-
-}
+  padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: 	#FAF9F6;
+    color: black;
+    width: 100%;
+    border: black solid 1px;
+  }
 
