@@ -85,6 +85,16 @@ There are a number of features that have been implemented into the website which
 - [Unsplash](https://unsplash.com/)
     * This website was used to get stock free images for the project.
 
+**Google Map API Key** 
+
+To enable to use the Google Map Api, we need to create our own keys.
+
+1. Create a Google Account
+2. Go to Credential Page
+3. Click Create credentials 
+4. Click API key
+5. It displays your newly created API key.
+
 ## Development
 
 I have found the development of this project quite difficult as I had struggled with getting my head around some of the concepts of javaScript.
