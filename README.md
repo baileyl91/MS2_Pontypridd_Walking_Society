@@ -142,3 +142,33 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 7.	Press Enter. Your local clone will be created.
 
 ## Credits
+
+### Code
+
+Due to the difficulty I have found learning javaScript I have relied a lot on tutorials to help understand the concepts and what I wanted to develop for the site.
+
+W3School Tutorial -  Gallery Slideshow
+
+Wanted to implement a gallery slideshow where the user have control of looking through the images.Used the tutorial to learn and understand the javaScript behind the scenes. Here is the [tutorial page]() I used.
+
+W3School Tutorial - Expanded Text Box
+
+Wanted to develop an expanded text box that when a user clicks on a marker on the map, the hidden text will expand to reveal more information about the route.
+Used the tutorial to learn and understand the javaScript behind the scenes. Here is the [tutorial page]() I used.
+
+Google Map API Docs
+
+I wanted to to learn how to use Google Map API and create a custom map for the website.
+Used the API docs to learn to develop it for the site. Here the [link]() to documentation I relied on.
+
+### Content
+
+All the content was written by me with help of the information provided online about each walking route via Google search.
+
+### Media
+
+All the stock images used were found on Unsplash
+
+### Acknowledgements
+
+Want to thank the Student Care and fellows students for the support. Also the tremendous community on the Slack channel.
