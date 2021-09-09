@@ -46,7 +46,7 @@ Have sourced a number of images to use for the website from Unsplash.A landscape
 ### Wireframes
 
 * Home Page - [view](/assets/wireframes/home-page.png)
-* Map Page - [view](/asets/wireframes/Map.png)
+* Map Page - [view](/assets/wireframes/Map.png)
 
 ## Features
 
@@ -110,6 +110,65 @@ Here are some of the features that I wanted to create.
 3. Wanted to connect the Google Map with the expanded text box, where a user click on a custom marker that provide a name of the route with a link to more information on that particular route. If user clicks on ‘more info’, the link scrolls down to the expanded text box.
 
 ## Testing
+
+The testing was done by me and tested the following questions:
+
+* Are the navigation links working?
+    Yes
+
+* Does social media links work when clicked on a link and taken to a new tab/window?
+    Yes
+
+* When a user click on next in the gallery slideshow, does it shows the next image in line?
+    Yes
+
+* When a user clicks on previous arrow on the gallery slideshow, does it shows the previous image in line?
+    Yes
+
+* Does Google Map allows the user to interact with it using buttons such as zooming in?
+    Yes
+
+* When a user click on chosen walking route, does it expand to reveal more information about the route?
+    Yes
+
+* Does the greeting message display the correct message based on time of the day?
+    Yes, I checked my site at 3 different times during the day. 
+    At 10am it displays ‘Good Morning’.
+    At 2pm it displays ‘Good Afternoon’.
+    At 7pm it displays ‘Good Evening’.
+
+The website have been tested in the following browsers to make sure it loading correctly and working:
+* Chrome
+* Safari
+* Firefox
+
+The website has tested on the following devices using Google Developer Tools, as I have only got access to iPhone 11.
+* Samsung Galaxy S5
+* Pixel 2
+* iPad
+
+### Lighthouse
+
+Have tested the website using the Lighthouse via Google Developer Tools to test for its accessibility, SEO and best practice.
+
+On desktop:
+￼
+![](./assets/testing/Desktop-lighthouse.png)
+
+On Mobile:
+￼
+![](./assets/testing/mobile-lighthouse.png)
+
+During this first test, the feedback above in the screenshot it came back with an issue that my images did not have an alt attribute.Taking the feedback on board, I set out to add an alt attribute to all my images.
+Below is the two screenshot of testing on both desktop and mobile after adding the improvement needed.It boost my scores well.
+
+On desktop:
+￼
+![](./assets/testing/2nd desktop-lighthouse.png)
+
+On Mobile:
+
+![](./assets/testing/2nd mobile desktop.png)￼
 
 ### Issues
 
