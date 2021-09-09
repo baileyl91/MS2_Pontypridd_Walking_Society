@@ -234,10 +234,12 @@ Here is the [result.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A
     ![](./assets/testing/social-media-icons.png)
 
 * As a first time visitor, want to find information on their weekly meet up
-    This was not completed 
+
+This was not completed 
 
 * As a first time visitor, want to be able to contact them with any queries a user may have
-    This was not completed
+
+This was not completed
 
 * As a returning visitor, want to see if there any new photos added to gallery
     The user can see if there more images added  using the information in the bottom left hand corner
@@ -256,10 +258,12 @@ The user can scroll down to the footer area and see icons they can click on whic
     There is no clear idea if there is a new route added to the map, however in the future there could a text “New” alongside the name of the walk.
 
 * As a returning visitor, want to be able to contact them about any queries they may have
-    This was not completed
+
+This was not completed
 
 * As a returning visitor, want to be able to find information on their upcoming big walk meet up
-    This was not completed
+
+This was not completed
 
 ### Issues
 
