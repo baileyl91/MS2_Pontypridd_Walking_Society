@@ -45,8 +45,8 @@ Have sourced a number of images to use for the website from Unsplash.A landscape
 
 ### Wireframes
 
-* Home Page - [view](./assets/wireframes/Home Page.png)
-* Map Page - [view](./asets/wireframes/Map.png)
+* Home Page - [view](/assets/wireframes/home-page.png)
+* Map Page - [view](/asets/wireframes/Map.png)
 
 ## Features
 
@@ -119,7 +119,7 @@ One of the problem I had was that the javaScript code did not work for both two 
 
 Secondly, the issue I had resolved around the expanded text box width. I had assigned the same width for the each section however when the user click on a route of their chosen, the expanded text then revealed. But it did not align with the header, create a longer width box. Was unable to solve the issue.
 
-![](/assets/testing/expanded-text.png)
+![](/assets/testing/doesn't-align.png)
 
 ## Deployment 
 
