@@ -114,28 +114,35 @@ Here are some of the features that I wanted to create.
 The testing was done by me and tested the following questions:
 
 * Are the navigation links working?
-    Yes
+
+Yes
 
 * Does social media links work when clicked on a link and taken to a new tab/window?
-    Yes
+
+Yes
 
 * When a user click on next in the gallery slideshow, does it shows the next image in line?
-    Yes
+
+Yes
 
 * When a user clicks on previous arrow on the gallery slideshow, does it shows the previous image in line?
-    Yes
+
+Yes
 
 * Does Google Map allows the user to interact with it using buttons such as zooming in?
-    Yes
+
+Yes
 
 * When a user click on chosen walking route, does it expand to reveal more information about the route?
-    Yes
+
+Yes
 
 * Does the greeting message display the correct message based on time of the day?
-    Yes, I checked my site at 3 different times during the day. 
-    At 10am it displays ‘Good Morning’.
-    At 2pm it displays ‘Good Afternoon’.
-    At 7pm it displays ‘Good Evening’.
+
+Yes, I checked my site at 3 different times during the day. 
+At 10am it displays ‘Good Morning’.
+At 2pm it displays ‘Good Afternoon’.
+At 7pm it displays ‘Good Evening’.
 
 The website have been tested in the following browsers to make sure it loading correctly and working:
 * Chrome
