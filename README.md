@@ -252,7 +252,8 @@ The user can scroll down to the footer area and see icons they can click on whic
 The user can go to the map page and see what other routes they can explore in the area
 
 * As a returning visitor, want to check if there is a new route added to the map
-There is no clear idea if there is a new route added to the map, however in the future there could a text “New” alongside the name of the walk.
+
+    There is no clear idea if there is a new route added to the map, however in the future there could a text “New” alongside the name of the walk.
 
 * As a returning visitor, want to be able to contact them about any queries they may have
 This was not completed
