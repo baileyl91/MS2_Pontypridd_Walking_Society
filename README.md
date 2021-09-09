@@ -87,7 +87,7 @@ There are a number of features that have been implemented into the website which
 
 **Google Map API Key** 
 
-To enable to use the Google Map Api, we need to create our own keys.
+To enable to use the Google Map API, we need to create our own keys.
 
 1. Create a Google Account
 2. Go to Credential Page
