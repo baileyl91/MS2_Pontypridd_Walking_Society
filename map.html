@@ -8,7 +8,9 @@
     <!-- Font Awesome-->
     <script src="https://kit.fontawesome.com/39a1a232c7.js" crossorigin="anonymous"></script>
 
+     <!-- Link stylesheet CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Pontypridd Walking Society</title>
 </head>
 <body>
@@ -20,6 +22,7 @@
             <i class="fas fa-hiking fa-4x"></i>
         </div>
         
+        <!-- hidden is called using media queries-->
         <div class="hidden">
         <h1 id="header">Pontypridd Walking Society</h1>
         </div>
@@ -29,21 +32,24 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li><a class="a" href="map.html">Map</a>
+                <li><a class="link" href="map.html">Map</a>
                 </li>
             </ul>
         </nav>
     </div>
     <br>
 
-    <!-- Google Map-->
+    <!-- Google Map -->
 
     <div id="map">
     </div>
     <br>
     
-
     <!-- Markers information-->
+    <!-- Code taken from W3 Schools tutorial
+        https://www.w3schools.com/howto/howto_js_collapsible.asp
+          Modified by me -->
+
     <button type="button" class="collapsible" >The Rocking Stone</button>
     <div class="content">
       <p><strong>Time:</strong> 1 hour</p>
@@ -112,17 +118,15 @@
         This trail in done on tarmac. </p>
     </div>
     
-    
-    
     <br>
-    
-
+  
     <!-- Footer-->
     <footer>
         <div class="footer-text">
             <p>Luke Bailey</p>
         </div>
 
+        <!-- Social Media Icons-->
         <div id="social">
         <a target="_blank" rel="noopener" href="https://www.facebook.com">
             <i class="fa fa-facebook fa-2x"></i>
@@ -135,6 +139,7 @@
         </div>
       </footer>
 
+      <!-- Link script and add script from Google Map API using my own key-->
       <script src="./assets/js/map.js"></script>
       <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtc1405RT4kYhmjskMLk1HXd3oWFUrw90&callback=initMap&libraries=&v=weekly"

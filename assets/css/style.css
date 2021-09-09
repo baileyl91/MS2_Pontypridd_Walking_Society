@@ -1,15 +1,16 @@
+/* Imported font using Gogogle Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #336600;
     margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  overflow-x: hidden; 
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden; 
 }
 
+/* Navigation */
 .container-navigation {
     background-color: #264d00;
     color: white;
@@ -43,6 +44,7 @@ ul li{
     vertical-align:top;
   }
 
+  /* Styling the links */
   a {
     text-decoration: none;
     color: white;
@@ -52,30 +54,33 @@ ul li{
     color: #99C2A5;
   }
   
-.a {
+.link {
   border-bottom-style: solid;
   color: #99C2A5;
 }
   
+/* Hero Image Section */
 
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-wales.jpg);
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    max-width: 100%;
     min-width: 300px;
     height: auto;
   }
 
   .hero-text {
-    margin: auto;
+  margin: auto;
   text-align: center;
   width: 40vw;
   padding: 5vw;
   color: white;
   }
+
+  /* Introduction box */
 
  .intro {
     background-color: #DFF0E2;
@@ -95,6 +100,8 @@ ul li{
     padding-left: 50px;
   }
 
+  /* Footer */
+
   footer {
     margin-top: 20px;
     bottom:0;
@@ -111,6 +118,7 @@ ul li{
     color: white;
   }
 
+  /*  Social Media Icons */ 
   .fa-facebook, .fa-instagram {
       color: white;
       padding-right:40px;
@@ -124,14 +132,17 @@ ul li{
   
   }
 
-  .mySlides {display: none}
+/* Gallery Slideshow */
+/* With support from W3 Schools tutorial */
+/* https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
+
+.mySlides {display: none}
 
 img {
   height: 500px;
   vertical-align: middle;
   object-fit: cover;
 }
-
 
 /* Slideshow container */
 .gallery {
@@ -161,12 +172,11 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   color: grey;
 }
 
-/* Number text (1/3 etc) */
+/* Number text (1/6) */
 .numbertext {
   color: white;
   font-weight: bold;
@@ -176,13 +186,19 @@ img {
   bottom: 0;
 }
 
+/* Google Map API */
+/* Support using documentation */
+/* https://developers.google.com/maps/documentation */
+
 #map {
   height: 400px;
-  /* The height is 400 pixels */
   width: 80%;
-  /* The width is the width of the web page */
   margin-left: 10%;
 }
+
+/* Expanded Text Section */
+/* Support using the W3 Schools tutorial */
+/* https://www.w3schools.com/howto/howto_js_collapsible.asp */
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -198,33 +214,35 @@ img {
   margin-left: 10%;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the button if it is clicked on */
 .active, .collapsible:hover {
   background-color: #99C2A5;
   color:black;
 }
 
-/* Style the collapsible content. Note: hidden by default */
+/* Style the expanded content content */
 .content {
   padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: 	#FAF9F6;
-    color: black;
-    width: 100%;
-    border: black solid 1px;
-    padding-left: 15%;
-    padding-right: 15%;
+  display: none;
+  overflow: hidden;
+  background-color: 	#FAF9F6;
+  color: black;
+  width: 100%;
+  border: black solid 1px;
+  padding-left: 15%;
+  padding-right: 15%;
   }
 
+/* Media Queries */
 
-
+/* Hides heading of site under certain width size */
   @media (max-width: 40em) {
     .hidden {
       display: none;
     }
   }
 
+  /* Expand the width to full length when view in mobile */
   @media (max-width: 50em) {
     .gallery {
       width: 100%;
@@ -232,6 +250,7 @@ img {
     }
   }
 
+  /* Expand the width to full length when view in mobile and to keep all content in the div box */
   @media (max-width: 50em) {
     .intro {
       width: 100%;
@@ -240,18 +259,21 @@ img {
     }
   }
 
+  /*  Ensure that background image stays in cover */
   @media (max-width: 50em) {
     .hero-image  {
       background-size: cover;
     }
   }
 
+  /*  Increase size of hero text to stretch longer across the screen */
   @media (max-width: 50em) {
     .hero-text  {
       width: 80%;
     }
   }
-
+  
+  /* Expand the width to full length when view in mobile */
   @media (max-width: 50em) {
     .collapsible {
       height: auto;
@@ -260,12 +282,14 @@ img {
     }
   }
 
+  /* Ensure that content stays in box */
   @media (max-width: 50em) {
     .content {
       width: auto;
     }
   }
 
+  /* Expand the width to full length when view in mobile */
   @media (max-width: 50em) {
     #map {
       margin-left: auto;
