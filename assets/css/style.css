@@ -129,8 +129,6 @@ ul li{
 img {
   height: 500px;
   vertical-align: middle;
-  position: center;
-  size: 100%;
   object-fit: cover;
 }
 
