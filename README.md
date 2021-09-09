@@ -44,3 +44,6 @@ The main font I have used is the ‘Poppins’ for its clean minimal look, with 
 Have sourced a number of images to use for the website from Unsplash.A landscape of the countryside in Wales as the hero image with different images of the trails in Wales to be included in the planned gallery slideshow.
 
 ### Wireframes
+
+* Home Page - [view](./assets/wireframes/Home Page.png)
+* Map Page - [view](./asets/wireframes/Map.pmg)
