@@ -170,7 +170,7 @@ During this first test, the feedback above in the screenshot it came back with a
 Below is the two screenshot of testing on both desktop and mobile after adding the improvement needed.It boost my scores well.
 
 On desktop:
-￼
+
 ![](./assets/testing/2nd-desktop-lighthouse.png)
 
 On Mobile:
@@ -182,7 +182,7 @@ On Mobile:
 There were a couple of issues when tested using the markup validator. 
 The report came back with 1 warning and 6 errors. 
 
-The warning was based on the fact that my <h2 id=“greeting></h2> had an empty string. Reason for the empty string is that the text would be added via JavaScript. To get around the warning, decided to change it to <label id=“greeting></label>. This did remove the warning.
+The warning was based on the fact that my h2 with id of greeting had an empty string. Reason for the empty string is that the text would be added via JavaScript. To get around the warning, decided to change it to label tag. This did remove the warning.
 
 The 6 errors that I had were all the same. The 6 images I have in the gallery slideshow did not have an alt=‘’
 attribute. To solve these errors, made sure to add an alt attribute to all of the images. 
