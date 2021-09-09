@@ -166,8 +166,8 @@ On Mobile:
 
 ![](./assets/testing/mobile-lighthouse.png)
 
-During this first test, the feedback above in the screenshot it came back with an issue that my images did not have an alt attribute.Taking the feedback on board, I set out to add an alt attribute to all my images.
-Below is the two screenshot of testing on both desktop and mobile after adding the improvement needed.It boost my scores well.
+During this first test, the feedback above in the screenshot it came back with an issue that my images did not have an alt attribute. Taking the feedback on board, I set out to add an alt attribute to all my images.
+Below is the two screenshot of testing on both desktop and mobile after adding the improvement needed. It boost my scores well.
 
 On desktop:
 
