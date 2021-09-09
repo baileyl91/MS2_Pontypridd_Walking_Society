@@ -164,11 +164,95 @@ Below is the two screenshot of testing on both desktop and mobile after adding t
 
 On desktop:
 ￼
-![](./assets/testing/2nd desktop-lighthouse.png)
+![](./assets/testing/2nd-desktop-lighthouse.png)
 
 On Mobile:
 
-![](./assets/testing/2nd mobile desktop.png)￼
+![](./assets/testing/2nd-mobile-lighthouse.png)￼
+
+### W3C Markup Validator Service
+
+There were a couple of issues when tested using the markup validator. 
+The report came back with 1 warning and 6 errors. 
+
+The warning was based on the fact that my <h2 id=“greeting></h2> had an empty string. Reason for the empty string is that the text would be added via JavaScript. To get around the warning, decided to change it to <label id=“greeting></label>. This did remove the warning.
+
+The 6 errors that I had were all the same. The 6 images I have in the gallery slideshow did not have an alt=‘’
+attribute. To solve these errors, made sure to add an alt attribute to all of the images. 
+This did solves the errors.
+
+The second time that tested the website, it came back with no warning and errors.
+
+Here is the [result.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaileyl91.github.io%2FMS2_Pontypridd_Walking_Society%2F)
+
+### W3C CSS Validator
+
+There were 2 errors when tested using the CSS validator.
+The error were linked to the image styling for the gallery slideshow.
+It seems that it was redundant and deleted the two lines that produces error. 
+Does not affect the look of my images on the website.
+Came back with no warning or error when tested the second time.
+
+Here is the [result.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbaileyl91.github.io%2FMS2_Pontypridd_Walking_Society%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Testing User Stories
+
+* As a first time visitor, want to understand what is the website is for
+    The website explains that it a society club and help to find routes in the area.
+
+￼![](./assets/testing/explain-the-website.png)
+
+* As a first time visitor, want to see a gallery of photos of the different trails on offer
+    As the user scrolls down the home page, they can see the gallery slideshow that they can click to see next or previous images.
+
+￼![](./assets/testing/gallery-slideshow.png)
+
+* As a first time visitor, want to find what options there are for walking in the area
+    The user can go to the map page to find the options available in the area
+
+* As a first time visitor, want to find information of the route and as a returning visitor, want to find information of a new route of their chosen route
+    The user can collect more information on the route they have pick, when they click on the name of the route, the expanded text then reveal the information
+    As an example, when a user click on ‘Saint Gywnno Forest’, this will appear:
+
+￼![](./assets/testing/expanded-text.png)
+
+* As a first time visitor, want to to chose a route base on the approx time it takes to complete
+    The user can click on each marker on the map to reveal the time it takes to complete
+
+![](./assets/testing/Info-window.png)
+
+* As a first time visitor, want to visit the club social media pages
+    The user can scroll down to the footer area and see icons they can click on which takes them to relevant social media pages in a new window/tab.
+
+￼![](./assets/testing/social-media-icons.png)
+
+* As a first time visitor, want to find information on their weekly meet up
+    This was not completed 
+
+* As a first time visitor, want to be able to contact them with any queries a user may have
+    This was not completed
+
+* As a returning visitor, want to see if there any new photos added to gallery
+    The user can see if there more images added  using the information in the bottom left hand corner
+
+￼![](./assets/testing/no-of-images.png)
+
+* As a returning visitor, want to visit the club social media pages to see if there anything new
+The user can scroll down to the footer area and see icons they can click on which takes them to relevant social media pages in a new window/tab.
+
+￼![](./assets/testing/social-media-icons.png)
+
+* As a returning visitor, want to find and explore other routes in the area
+    The user can go to the map page and see what other routes they can explore in the area
+
+* As a returning visitor, want to check if there is a new route added to the map
+    There is no clear idea if there is a new route added to the map, however in the future there could a text “New” alongside the name of the walk.
+
+* As a returning visitor, want to be able to contact them about any queries they may have
+    This was not completed
+
+* As a returning visitor, want to be able to find information on their upcoming big walk meet up
+    This was not completed
 
 ### Issues
 
