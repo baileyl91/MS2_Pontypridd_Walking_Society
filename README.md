@@ -205,31 +205,36 @@ Here is the [result.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A
 ### Testing User Stories
 
 * As a first time visitor, want to understand what is the website is for
-    The website explains that it a society club and help to find routes in the area.
+
+The website explains that it a society club and help to find routes in the area.
     
     ![](./assets/testing/explain-the-website.png)
 
 * As a first time visitor, want to see a gallery of photos of the different trails on offer
-    As the user scrolls down the home page, they can see the gallery slideshow that they can click to see next or previous images.
+
+As the user scrolls down the home page, they can see the gallery slideshow that they can click to see next or previous images.
     
     ![](./assets/testing/gallery-slideshow.png)
 
 * As a first time visitor, want to find what options there are for walking in the area
-    The user can go to the map page to find the options available in the area
+
+The user can go to the map page to find the options available in the area
 
 * As a first time visitor, want to find information of the route and as a returning visitor, want to find information of a new route of their chosen route
-    The user can collect more information on the route they have pick, when they click on the name of the route, the expanded text then reveal the information
-    As an example, when a user click on ‘Saint Gywnno Forest’, this will appear:
+
+The user can collect more information on the route they have pick, when they click on the name of the route, the expanded text then reveal the information. As an example, when a user click on ‘Saint Gywnno Forest’, this will appear:
     
     ![](./assets/testing/expanded-text.png)
 
 * As a first time visitor, want to to chose a route base on the approx time it takes to complete
-    The user can click on each marker on the map to reveal the time it takes to complete
+
+The user can click on each marker on the map to reveal the time it takes to complete
     
     ![](./assets/testing/Info-window.png)
 
 * As a first time visitor, want to visit the club social media pages
-    The user can scroll down to the footer area and see icons they can click on which takes them to relevant social media pages in a new window/tab.
+
+The user can scroll down to the footer area and see icons they can click on which takes them to relevant social media pages in a new window/tab.
     
     ![](./assets/testing/social-media-icons.png)
 
@@ -242,20 +247,24 @@ This was not completed
 This was not completed
 
 * As a returning visitor, want to see if there any new photos added to gallery
-    The user can see if there more images added  using the information in the bottom left hand corner
+
+The user can see if there more images added  using the information in the bottom left hand corner
     
     ![](./assets/testing/no-of-images.png)
 
 * As a returning visitor, want to visit the club social media pages to see if there anything new
+
 The user can scroll down to the footer area and see icons they can click on which takes them to relevant social media pages in a new window/tab.
 
 ![](./assets/testing/social-media-icons.png)
 
 * As a returning visitor, want to find and explore other routes in the area
-    The user can go to the map page and see what other routes they can explore in the area
+
+The user can go to the map page and see what other routes they can explore in the area
 
 * As a returning visitor, want to check if there is a new route added to the map
-    There is no clear idea if there is a new route added to the map, however in the future there could a text “New” alongside the name of the walk.
+
+There is no clear idea if there is a new route added to the map, however in the future there could a text “New” alongside the name of the walk.
 
 * As a returning visitor, want to be able to contact them about any queries they may have
 
