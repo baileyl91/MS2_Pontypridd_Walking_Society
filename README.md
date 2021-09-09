@@ -101,13 +101,25 @@ Felt the need to simplify my project down to two web pages where broken down int
 
 There were a number of things that I wanted to create as part of the website but unfortunately
 due to difficulty I found durning the development, I had to cut out these features to make sure that I 
-will be able to complete the project in time. Here are some of the features that I wanted to create.A form contact page that allow the user to get in touch about any queries they had.A meet up page where the club provide information their weekly meet up to allow the user to connect with likeminded people and
-to provide information on their next big walk/hike meet up.
-Wanted to connect the Google Map with the expanded text box, where a user click on a custom marker that provide a name of the route with a link to more information on that particular route. If user clicks on ‘more info’, the link scrolls down to the expanded text box.
+will be able to complete the project in time. 
+
+Here are some of the features that I wanted to create.
+
+1. A form contact page that allow the user to get in touch about any queries they had.
+2. A meet up page where the club provide information their weekly meet up to allow the user to connect with like-minded people and to provide information on their next big walk/hike meet up.
+3. Wanted to connect the Google Map with the expanded text box, where a user click on a custom marker that provide a name of the route with a link to more information on that particular route. If user clicks on ‘more info’, the link scrolls down to the expanded text box.
 
 ## Testing
 
+### Issues
 
+Throughout my development of the projects I had a couple of issues which I have tried to address.
+
+One of the problem I had was that the javaScript code did not work for both two pages. Did not understand why however did solve the issue by assigning each page with it own javaScript page, i.e mapScript.js for map.html.
+
+Secondly, the issue I had resolved around the expanded text box width. I had assigned the same width for the each section however when the user click on a route of their chosen, the expanded text then revealed. But it did not align with the header, create a longer width box. Was unable to solve the issue.
+
+![](/assets/testing/expanded-text.png)
 
 ## Deployment 
 
@@ -149,23 +161,23 @@ Due to the difficulty I have found learning javaScript I have relied a lot on tu
 
 W3School Tutorial -  Gallery Slideshow
 
-Wanted to implement a gallery slideshow where the user have control of looking through the images.Used the tutorial to learn and understand the javaScript behind the scenes. Here is the [tutorial page]() I used.
+Wanted to implement a gallery slideshow where the user have control of looking through the images.Used the tutorial to learn and understand the javaScript behind the scenes. Here is the [tutorial page](https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp) I used.
 
 W3School Tutorial - Expanded Text Box
 
 Wanted to develop an expanded text box that when a user clicks on a marker on the map, the hidden text will expand to reveal more information about the route.
-Used the tutorial to learn and understand the javaScript behind the scenes. Here is the [tutorial page]() I used.
+Used the tutorial to learn and understand the javaScript behind the scenes. Here is the [tutorial page](https://www.w3schools.com/howto/howto_js_collapsible.asp) I used.
 
 Google Map API Docs
 
 I wanted to to learn how to use Google Map API and create a custom map for the website.
-Used the API docs to learn to develop it for the site. Here the [link]() to documentation I relied on.
+Used the API docs to learn to develop it for the site. Here the [link](https://developers.google.com/maps/documentation) to documentation I relied on.
 
 ### Content
 
 All the content was written by me with help of the information provided online about each walking route via Google search.
 
-### Media
+### Media
 
 All the stock images used were found on Unsplash
 
